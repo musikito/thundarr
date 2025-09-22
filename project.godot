@@ -13,7 +13,6 @@ config_version=5
 config/name="Thundarr"
 run/main_scene="uid://kq3vmo32bhw"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [input]
 

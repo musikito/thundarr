@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://dl88rqiqivyah"]
 
-[ext_resource type="Script" uid="uid://d2s5s4yh0l3ro" path="res://scripts/main_char.gd" id="1_a6rub"]
+[ext_resource type="Script" uid="uid://d2s5s4yh0l3ro" path="res://scripts/player.gd" id="1_a6rub"]
 [ext_resource type="Texture2D" uid="uid://td3w5gmkfvla" path="res://assets/Jump (32x32).png" id="1_m2xt3"]
 [ext_resource type="Texture2D" uid="uid://ccdp4rfwyfwu7" path="res://assets/Idle (32x32).png" id="2_4aqo4"]
 [ext_resource type="Texture2D" uid="uid://cghs66q1icdgm" path="res://assets/Run (32x32).png" id="4_a0gy4"]
@@ -208,3 +208,5 @@ shape = SubResource("CapsuleShape2D_520hs")
 [node name="Camera2D" type="Camera2D" parent="."]
 position_smoothing_enabled = true
 position_smoothing_speed = 7.0
+
+[node name="StateMachine" type="Node" parent="."]
